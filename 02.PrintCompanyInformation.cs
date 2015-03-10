@@ -1,6 +1,7 @@
 using System;
 using System.Threading;
 using System.Globalization;
+
 class PrintCompanyInformation
 {
     static void Main()
