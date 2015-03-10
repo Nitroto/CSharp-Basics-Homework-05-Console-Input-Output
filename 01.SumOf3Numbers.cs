@@ -1,7 +1,8 @@
 using System;
 using System.Threading;
 using System.Globalization;
-class PrintCompanyInformation
+
+class SumOf3Numbers
 {
     static void Main()
     {
