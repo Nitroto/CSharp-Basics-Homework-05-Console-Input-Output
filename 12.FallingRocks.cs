@@ -81,10 +81,6 @@ class FallingRocks
         PrintOnPosition(23, 14, "GET READY !!!", ConsoleColor.Red);
         Thread.Sleep(500);
 
-        //Music for begining
-        //Tones.PlaySong(Tetris());
-
-
         Console.Clear();
         PrintOnPosition(24, 14, "Go", ConsoleColor.Red);
         Thread.Sleep(400);
