@@ -13,13 +13,13 @@ class QuadraticEquation
         double b = Double.Parse(Console.ReadLine());
         Console.Write("c = ");
         double c = Double.Parse(Console.ReadLine());
-        double determinant = b * b - 4 * a * c;
-        if (determinant >= 0)
+        double diskriminant = b * b - 4 * a * c;
+        if (diskriminant >= 0)
         {
-            if (determinant > 0)
+            if (diskriminant > 0)
             {
-                double x1 = (-b + Math.Sqrt(determinant))/(2*a);
-                double x2 = (-b - Math.Sqrt(determinant)) / (2 * a);
+                double x1 = (-b + Math.Sqrt(diskriminant))/(2*a);
+                double x2 = (-b - Math.Sqrt(diskriminant)) / (2 * a);
                 Console.WriteLine("x1 = {0}\r\nx2 = {1}", x1, x2);
             }
             else
